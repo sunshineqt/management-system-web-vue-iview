@@ -3,10 +3,10 @@
         <div class="login-content">
             <Form ref="formValidate" :model="formValidate" :rules="ruleValidate" :label-width="80">
                 <FormItem label="user" prop="user">
-                    <Input v-model="formValidate.user" placeholder="Enter your user"></Input>
+                    <Input v-model="formValidate.user" placeholder="Enter your user" />
                 </FormItem>
                 <FormItem label="password" prop="password">
-                    <Input v-model="formValidate.password" placeholder="Enter your password"></Input>
+                    <Input v-model="formValidate.password" placeholder="Enter your password" />
                 </FormItem>
                 <FormItem>
                     <Button type="primary" @click="handleSubmit('formValidate')" style="margin-left:-80px;">Submit</Button>
